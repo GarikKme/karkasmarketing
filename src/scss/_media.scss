@@ -1,0 +1,452 @@
+/* ------ Media Queries ------ */
+
+@media screen and (max-width: 1500px) {
+  .contacts {
+    &__text1 {
+      margin-top: 90px;
+    }
+
+    &-word1 {
+      right: 145px;
+    }
+
+    &-word2 {
+      right: 120px;
+    }
+  }
+}
+
+/*------1201px  -  1366px-------*/
+
+@media screen and (max-width: 1365px) {
+
+}
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+  .header {
+    &__logo {
+      img {
+        max-width: 100%;
+      }
+    }
+    .menu {
+      li {
+        margin-right: 20px;
+
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+
+    &__phone a {
+      font-size: 17px;
+    }
+
+    .button {
+      margin-top: 20px;
+    }
+  }
+  .works {
+    &-wrapper {
+      margin-top: 32px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__item {
+      margin-top: 28px;
+    }
+
+    &__item {
+      &:last-child {
+        margin-right: 20px;
+      }
+    }
+
+    &-offers {
+      margin-top: 47px;
+    }
+  }
+
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+  .header {
+    .gamburger {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      color: $white;
+
+      img {
+        margin-left: 16px;
+      }
+    }
+
+    &__wrap {
+      justify-content: space-around;
+    }
+
+    .menu {
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      left: 0;
+      top: 0;
+      z-index: 9;
+      background: #242424;
+      margin-top: 0;
+      display: none;
+
+      li {
+        margin-right: 0;
+        margin-top: 25px;
+      }
+
+      &__item.header__phone {
+        a {
+          font-family: Nunito, sans-serif;
+        }
+      }
+    }
+
+    .open {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      color: #fff;
+      opacity: 1;
+    }
+
+    .close-menu {
+      display: none;
+    }
+
+    .offer {
+      &__wrap {
+        padding-left: 0;
+        position: relative;
+        padding-bottom: 130px;
+      }
+    }
+  }
+  .contacts {
+    background-image: url(../images/contacts-mob-bg.png);
+    padding-top: 50px;
+
+    &__title {
+      color: #606161;
+      text-align: center;
+    }
+
+    &-word1 {
+      right: unset;
+      color: #606161;
+    }
+
+    &-word2 {
+      right: unset;
+      color: #606161;
+      left: 50px;
+    }
+
+    &__text1 {
+      color: #252525;
+    }
+
+    &__text2 {
+      color: #252525;
+    }
+
+    .form {
+      flex-flow: column;
+
+      .button {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+  }
+  .contacts2 {
+    .contacts-word1 {
+      right: unset;
+      top: -120px;
+    }
+
+    .contacts-word2 {
+      right: unset;
+      top: 0;
+    }
+  }
+  .reasons {
+    padding-top: 0;
+
+    &-wrap {
+      flex-flow: column;
+      align-items: center;
+      padding: 20px 8px 0 64px;
+      margin-top: 20px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  .cases {
+    padding-bottom: 57px;
+
+    &__box-gallery {
+      margin-top: 0;
+      flex-flow: column;
+
+      a {
+        margin-top: 20px;
+
+        img {
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+
+      a:nth-child(2) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .footer {
+    &-wrap {
+      flex-wrap: wrap;
+    }
+    &-wrap__contacts-box-mail {
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+
+    &-wrap__menu {
+      display: none;
+    }
+
+    &-rights {
+      margin-top: 20px;
+    }
+  }
+  .mobile-author {
+    display: block;
+  }
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .header {
+    .offer {
+      &__subtitle {
+        max-width: 300px;
+      }
+
+      &__wrap {
+        padding-bottom: 50px;
+
+        p {
+          max-width: 270px;
+        }
+      }
+    }
+  }
+  .contacts {
+    &__text1 {
+      max-width: 200px;
+      margin: 0 auto;
+      color: #252525;
+      margin-top: 50px;
+    }
+
+    &__text2 {
+      max-width: 200px;
+      margin: 0 auto;
+      color: #252525;
+    }
+  }
+  .works {
+    &__item {
+      margin-right: 0 !important;
+
+      &:last-child {
+        margin-right: 0 !important;
+      }
+    }
+
+    &-offers {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__subtitle {
+      margin-top: 60px;
+    }
+
+    .img-mobile {
+      display: block;
+    }
+
+    .img-desktop {
+      display: none;
+    }
+  }
+
+  .form {
+    padding: 10px;
+
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 16px;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    &-control {
+      width: 100%;
+    }
+
+
+    &__btn {
+      width: 100%;
+    }
+
+  }
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 35px;
+  }
+  .header {
+    .container {
+      padding-right: 0;
+    }
+
+    .menu {
+      height: 60%;
+    }
+
+    .offer {
+      padding-top: 0;
+
+      &__title {
+        margin-top: 0;
+      }
+
+      &__subtitle {
+        max-width: 300px;
+      }
+
+      &__text {
+        display: none;
+      }
+
+      &__wrap {
+        padding-bottom: 69px;
+
+        p {
+          max-width: 150px;
+        }
+      }
+    }
+
+    &__wrap {
+      padding-bottom: 50px;
+
+      p {
+        max-width: 150px;
+        font-size: 16px;
+      }
+    }
+    .gamburger {
+      img {
+        margin-right: 17px;
+      }
+    }
+  }
+  .contacts {
+    .form {
+      align-items: flex-end;
+    }
+
+    &__text1 {
+      margin-right: 35px;
+      text-align: center;
+    }
+
+    &__text2 {
+      margin-right: 35px;
+      text-align: center;
+    }
+  }
+  .mobile-author {
+    top: -63px;
+  }
+  .garanties {
+    &__box {
+      padding: 12px 5px;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+  .footer {
+    &-wrap {
+      justify-content: center;
+      flex-flow: column;
+    }
+    .vk-com {
+      position: static;
+      text-align: center;
+      left: 0;
+      top: 0;
+      transform: translate(0,0);
+      margin-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .header {
+    container {
+      padding-left: 3px;
+    }
+    .offer__wrap p {
+      max-width: 126px;
+      font-size: 15px;
+    }
+    .offer__wrap {
+      padding-bottom: 114px;
+    }
+  }
+  .contacts {
+    &-word2 {
+      left: 40px;
+    }
+  }
+}

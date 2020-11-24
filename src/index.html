@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Karkas Marketing</title>
+    <meta name="description" content="#">
+    <meta name="keywords" content="#">
+    <!-- Favicon -->
+    <link rel="icon" href="#">
+    <link rel="shortcut icon" href="#">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+<!-- Header -->
+@include('_header.html')
+<!--End of the Header -->
+<main class="d-flex flex-column"><!-- skills -->
+    <section class="skills order-3 order-lg-2" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="skills__title">
+                        Преимущества работы со мной
+                    </h2>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-center justify-content-lg-between flex-wrap align-items-center">
+                    <div class="skills__item">
+                        <img src="images/skills1.svg" alt="skills" class="skills__img">
+                        <p class="skills__item-text">
+                            Работа с одной<br>
+                            бизнес-нишей
+                        </p>
+                    </div>
+                    <div class="skills__item">
+                        <img src="images/skills2.svg" alt="skills" class="skills__img">
+                        <p class="skills__item-text">
+                            Узконаправленный<br>
+                            подход
+                        </p>
+                    </div>
+                    <div class="skills__item">
+                        <img src="images/skills3.svg" alt="skills" class="skills__img">
+                        <p class="skills__item-text">
+                            Полная<br>
+                            конфиденциальность
+                        </p>
+                    </div>
+                    <div class="skills__item">
+                        <img src="images/skills4.svg" alt="skills" class="skills__img">
+                        <p class="skills__item-text">
+                            Оплата за услуги<br>
+                            по частям
+                        </p>
+                    </div>
+                    <div class="skills__item">
+                        <img src="images/skills5.svg" alt="skills" class="skills__img">
+                        <p class="skills__item-text">
+                            Один город -<br>
+                            один клиент
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <p class="skills__text skills__text1">Никаких тестов, сливающих рекламный бюджет.</p>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <p class="skills__text skills__text2">Я сразу настрою Вам эффективную рекламу, привлекающую
+                        клиентов,
+                        потому что я знаю инструменты, способные избежать ненужных волокит и растрат. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of the  skills -->
+    <!-- contacts-->
+    <section class="contacts order-2 order-lg-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-5">
+                    <p class="contacts-word contacts-word1">
+                        <span>О</span><br>
+                        <span>С</span><br>
+                        <span>Т</span><br>
+                        <span>А</span><br>
+                        <span>В</span><br>
+                        <span>Ь</span><br>
+                        <span>Т</span><br>
+                        <span>Е</span>
+                    </p>
+                    <p class="contacts-word contacts-word2">
+                        <span>3</span><br>
+                        <span>А</span><br>
+                        <span>Я</span><br>
+                        <span>В</span><br>
+                        <span>К</span><br>
+                        <span>У</span>
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-7">
+                    <p class="contacts__text contacts__text1">
+                        За каждым клиентом стоит проект. Каждый проект – возможность. Мне приятно работать с каждым
+                        клиентом.
+                        Хотите стать следующим?
+                    </p>
+                    <p class="d-none d-md-block contacts__text2">
+                        Оставьте заявку и я свяжусь с Вами.
+                    </p>
+                    <form action="success.php" method="POST" class="form modal-form js-form" id="popupResult">
+                        <div class="form-group"><input type="tel" class="form-control" name="tel"
+                                                       placeholder="+7 (___) ___-__-__"></div>
+                        <button class="form__btn button" data-submit>Отправить</button>
+                    </form>
+                    <p class="d-block d-md-none contacts__text2">
+                        Оставьте заявку и я свяжусь с Вами.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of the  contacts-->
+    <!-- reasons-->
+    <section class="reasons order-4" id="reasons">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="reasons__title">
+                        Вам стоит работать со мной, если:
+                    </h2>
+                </div>
+                <div class="col-lg-12">
+                    <div class="reasons-wrap">
+                        <ul class="reasons-wrap__list">
+                            <li>• Вы занимаетесь строительством домов</li>
+                            <li>• Вы хотите увеличить продажи своего бизнеса</li>
+                            <li>• У Вас есть реклама, но результат Вас не устраивает</li>
+                            <li>• У Вас есть сайт, но он не продает</li>
+                            <li>• Вы устали сливать бюджет</li>
+                        </ul>
+                        <img src="images/reasons-img.png" alt="author" class="reasons-wrap__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of the  reasons-->
+    <!-- works-->
+    <section class="works order-5" id="works">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="works__title">
+                        Как я увеличиваю Ваши продажи
+                        и количество потенциальных клиентов?
+                    </h2>
+                </div>
+                <div class="col-lg-12">
+                    <div class="works-wrapper">
+                        <div class="works__item">
+                            <span>01</span>
+                            <img src="images/works1.svg" alt="works">
+                            <p class="works__text">
+                                Анализ и исправление<br>
+                                ошибок в настройке<br>
+                                рекламы
+                            </p>
+                        </div>
+                        <div class="works__item">
+                            <span>02</span>
+                            <img src="images/works2.svg" alt="works">
+                            <p class="works__text">
+                                Маркетинговый<br> аудит Вашего<br> бизнеса
+                            </p>
+                        </div>
+                        <div class="works__item">
+                            <span>03</span>
+                            <img src="images/works3.svg" alt="works">
+                            <p class="works__text">
+                                Повышение<br> конверсии<br>
+                                сайта
+                            </p>
+                        </div>
+                        <div class="works__item">
+                            <span>04</span>
+                            <img src="images/works4.svg" alt="works">
+                            <p class="works__text">
+                                Настройка целевого<br> трафика лично для<br> Вашего бизнеса
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="works-offers">
+                        <img class="img-desktop" src="images/works-brain-out.png" alt="works">
+                        <img class="img-mobile" src="images/mobile-works-img.png" alt="works">
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <p class="works__subtitle">
+                        от 20 заявок в день по цене от 160 руб./заявка*
+                    </p>
+                    <p class="works__subtitle2">*Результаты могут варьироваться в каждом случае, т.к. на стоимость
+                        заявки влияет множество факторов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of the  works-->
+    <!-- garanties-->
+    <section class="garanties order-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="garanties__title">
+                        я даю гарантии
+                    </h2>
+                </div>
+                <div class="col-lg-6">
+                    <div class="garanties__box">
+                        <img src="images/garanties-img.png" alt="garanties">
+                        <p class="garanties__text">
+                            Возврат стоимости нецелевых кликов<br>
+                            из поисковой рекламы
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="garanties__box">
+                        <img src="images/garanties-img2.png" alt="garanties">
+                        <p class="garanties__text">
+                            Возврат стоимости заявки клиенту, если она превысит сумму в 1000 руб.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of the  garanties-->
+    <!-- cases -->
+    <section class="cases order-7" id="cases">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="cases__title">
+                        Кейсы
+                    </h2>
+                </div>
+                <div class="col-lg-12" >
+                    <div class="cases__box">
+                        <p class="cases__box-title">
+                            183 заявки по 206 руб.
+                        </p>
+                        <div class="cases__box-gallery" id="lightgallery">
+                            <a href="images/gallery-img.jpg">
+                                <img src="images/gallery-img.jpg" alt="cases">
+                            </a>
+                            <a href="images/gallery-img2.jpg">
+                                <img src="images/gallery-img2.jpg" alt="cases">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cases__box">
+                        <p class="cases__box-title">
+                            149 заявок по 152 руб.
+                        </p>
+                        <div class="cases__box-gallery" id="lightgallery2">
+                            <a href="images/gallery-img3.jpg">
+                                <img src="images/gallery-img3.jpg" alt="cases">
+                            </a>
+                            <a href="images/gallery-img4.jpg">
+                                <img src="images/gallery-img4.jpg" alt="cases">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cases__box">
+                        <p class="cases__box-title">
+                            118 заявок по 280 руб.
+                        </p>
+                        <div class="cases__box-gallery" id="lightgallery3">
+                            <a href="images/gallery-img5.jpg">
+                                <img src="images/gallery-img5.jpg" alt="cases">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cases__box">
+                        <p class="cases__box-title">
+                            152 заявки по 140 руб.
+                        </p>
+                        <div class="cases__box-gallery" id="lightgallery4">
+                            <a href="images/gallery-img6.jpg">
+                                <img src="images/gallery-img6.jpg" alt="cases">
+                            </a>
+                            <a href="images/gallery-img7.jpg">
+                                <img src="images/gallery-img7.jpg" alt="cases">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of the  cases-->
+    <!-- contacts-->
+    <section class="contacts contacts2 order-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h2 class="contacts__title">
+                        Остались вопросы?
+                    </h2>
+                    <p class="contacts__text contacts__text2">
+                        Оставьте свои контактные данные, и я с Вами свяжусь.
+                    </p>
+                    <form action="success.php" method="POST" class="form modal-form js-form" id="popupResult">
+                        <div class="form-group"><input type="tel" class="form-control" name="tel"
+                                                       placeholder="+7 (___) ___-__-__"></div>
+                        <button class="form__btn button" data-submit>Отправить</button>
+                    </form>
+                </div>
+                <div class="col-lg-5">
+                    <p class="contacts-word contacts-word1">
+                        <span>О</span><br>
+                        <span>С</span><br>
+                        <span>Т</span><br>
+                        <span>А</span><br>
+                        <span>В</span><br>
+                        <span>Ь</span><br>
+                        <span>Т</span><br>
+                        <span>Е</span>
+                    </p>
+                    <p class="contacts-word contacts-word2">
+                        <span>3</span><br>
+                        <span>А</span><br>
+                        <span>Я</span><br>
+                        <span>В</span><br>
+                        <span>К</span><br>
+                        <span>У</span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--End of the  contacts--></main>
+
+<!-- footer -->
+@include('_footer.html')
+<!--End of the  footer-->
+
+
+<!-- JS Scripts -->
+<script src="js/main.js"></script>
+<!--<script>-->
+<!--	$(document).ready(function () {-->
+<!--		$('head').append("<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap' rel='stylesheet'>");-->
+<!--	});-->
+<!--</script>-->
+</body>
+
+</html>

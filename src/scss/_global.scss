@@ -1,0 +1,270 @@
+body {
+  font-size: 15px;
+  color: $white;
+  letter-spacing: 0.02em;
+  margin: 0;
+  background-color: #242424;
+  font-family: Raleway;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+p,
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a {
+  transition: all 0.5s ease;
+  font-family: 'Nunito', sans-serif;
+}
+*::placeholder {
+  color: #242424;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+  outline: none !important;
+  border: none !important;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.gamburger {
+  display: none;
+}
+.button {
+  background: linear-gradient(55.42deg, #9D9792 12.35%, #CECAC5 22.73%, #ECE8E3 30.51%, #EDEAE7 46.07%, #ECE8E3 59.04%, #9D9792 75.91%, #CECAC5 84.98%, #ECE8E3 91.47%, #EDEAE7 105.74%, #ECE8E3 121.3%, #9D9792 142.05%);
+  box-shadow: 0px 0px 10px rgba(236, 232, 227, 0.5);
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #242424;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  max-width: 236px;
+  width: 236px;
+  height: 44px;
+  transition: all .5s ease;
+}
+.button:hover {
+  box-shadow: 0 0 20px rgba(255,255,255, .9);
+}
+
+.close {
+  display: none;
+}
+
+.modal-form {
+  .check__box {
+    left: -1.5em;
+  }
+}
+
+.box-modal {
+  text-align: right;
+  max-width: 632px;
+  width: 632px;
+  padding-top: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  background-color: #003768;
+
+  .close-button {
+    cursor: pointer;
+  }
+}
+
+.form {
+  padding-top: 31px;
+  padding-right: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-control {
+    background: #E2E2E2;
+    width: 236px;
+    height: 44px;
+    max-width: 236px;
+    color: #242424;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+    font-family: Nunito, sans-serif;
+  }
+  &-group {
+    position: relative;
+  }
+}
+
+#loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.91);
+  overflow: hidden;
+  display: none;
+}
+
+label.error {
+  font-size: 12px;
+  color: red;
+  position: absolute;
+}
+
+#tel-error {
+  top: 0;
+  top: -25px;
+  width: 100%;
+  left: 0;
+}
+
+
+input.error {
+  border: 1px solid red !important;
+}
+
+input.valid {
+  border: 1px solid green !important;
+}
+
+#loader img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  margin-left: -25px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(#000, 0.9);
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+
+#thx {
+  //display: none;
+  background: #373737;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  color: $white;
+  border-radius: 20px;
+  z-index: 999;
+}
+.author {
+  position: relative;
+}
+.disk {
+  position: absolute;
+  background: transparent;
+  right: 40px;
+  bottom: 10vh;
+  width: 184px;
+  padding: 15% 0; border-radius: 50%;
+  span {
+    position: absolute;
+    left: 50%;
+    width: 0;
+    bottom: 50%;
+    -ms-transform-origin: 0% 100%;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    padding-bottom: 50%;
+    &:nth-of-type(1) {
+      transform: rotate(345deg);
+    }
+    &:nth-of-type(2) {
+      transform: rotate(355deg)
+    }
+    &:nth-of-type(3) {
+      transform: rotate(365deg)
+    }
+    &:nth-of-type(4) {
+      transform: rotate(375deg)
+    }
+    &:nth-of-type(5) {
+      transform: rotate(385deg)
+    }
+    &:nth-of-type(6) {
+      transform: rotate(395deg)
+    }
+    &:nth-of-type(7) {
+      transform: rotate(405deg)
+    }
+    &:nth-of-type(8) {
+      transform: rotate(415deg)
+    }
+    &:nth-of-type(9) {
+      transform: rotate(425deg)
+    }
+    &:nth-of-type(10) {
+      transform: rotate(435deg)
+    }
+    &:nth-of-type(11) {
+      transform: rotate(445deg)
+    }
+  }
+}
+.mobile-author {
+  position: absolute;
+  right: 0;
+  display: none;
+  top: -84px;
+}
+.img-mobile {
+  display: none;
+}
