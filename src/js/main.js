@@ -27,9 +27,10 @@ $(document).ready(function ($) {
         }, 1500);
 
         return false;
-    });
-
-
+	 });
+	 
+	 //masked input
+	 $("#tel").mask("+7(999) 999-9999");
 
     // form validation
 

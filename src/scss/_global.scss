@@ -29,6 +29,7 @@ h1 {
 h2 {
   font-size: 30px;
   font-weight: 600;
+  line-height: 49px;
 }
 
 
@@ -211,8 +212,8 @@ input.valid {
 .disk {
   position: absolute;
   background: transparent;
-  right: 40px;
-  bottom: 10vh;
+  right: -18px;
+  bottom: 8vh;
   width: 184px;
   padding: 15% 0; border-radius: 50%;
   span {
@@ -225,39 +226,83 @@ input.valid {
     transform-origin: 0% 100%;
     padding-bottom: 50%;
     &:nth-of-type(1) {
-      transform: rotate(345deg);
+      transform: rotate(245deg);
     }
     &:nth-of-type(2) {
-      transform: rotate(355deg)
+      transform: rotate(255deg)
     }
     &:nth-of-type(3) {
-      transform: rotate(365deg)
+      transform: rotate(265deg)
     }
     &:nth-of-type(4) {
-      transform: rotate(375deg)
+      transform: rotate(275deg)
     }
     &:nth-of-type(5) {
-      transform: rotate(385deg)
+      transform: rotate(285deg)
     }
     &:nth-of-type(6) {
-      transform: rotate(395deg)
+      transform: rotate(295deg)
     }
     &:nth-of-type(7) {
-      transform: rotate(405deg)
+      transform: rotate(325deg)
     }
     &:nth-of-type(8) {
-      transform: rotate(415deg)
+      transform: rotate(335deg)
     }
     &:nth-of-type(9) {
-      transform: rotate(425deg)
+      transform: rotate(345deg)
     }
     &:nth-of-type(10) {
-      transform: rotate(435deg)
+      transform: rotate(355deg)
     }
     &:nth-of-type(11) {
+      transform: rotate(365deg)
+	 }
+	 &:nth-of-type(12) {
+      transform: rotate(375deg)
+	 }
+	 &:nth-of-type(13) {
+      transform: rotate(395deg)
+	 }
+	 &:nth-of-type(14) {
+      transform: rotate(415deg)
+	 }
+	 &:nth-of-type(15) {
+      transform: rotate(425deg)
+	 }
+	 &:nth-of-type(16) {
+      transform: rotate(435deg)
+	 }
+	 &:nth-of-type(17) {
       transform: rotate(445deg)
+	 }
+	 &:nth-of-type(18) {
+      transform: rotate(455deg)
+	 }
+	 &:nth-of-type(19) {
+      transform: rotate(475deg)
+	 }
+	 &:nth-of-type(20) {
+      transform: rotate(485deg)
+	 }
+	 &:nth-of-type(21) {
+      transform: rotate(495deg)
+	 }
+	 &:nth-of-type(22) {
+      transform: rotate(505deg)
+	 }
+	 &:nth-of-type(23) {
+      transform: rotate(515deg)
+	 }
+	 &:nth-of-type(24) {
+      transform: rotate(525deg)
     }
   }
+  animation: loader 6s linear infinite ;
+}
+@keyframes loader {
+	0% {transform:rotate(22deg)}
+	100%{transform:rotate(380deg)}
 }
 .mobile-author {
   position: absolute;

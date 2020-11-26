@@ -100,6 +100,9 @@
 		align-items: center;
 		margin-top: 66px;
 		min-width: 200px;
+		img {
+			height: 82px;
+		}
 		&-text {
 			margin-top: 23px;
 		}
@@ -267,8 +270,13 @@
 		&-title {
 			font-size: 24px;
 			text-align: center;
+			font-family: Nunito, sans-serif;
 		}
 		&-gallery {
+			img {
+				max-width: 100%;
+				height: auto;
+			}
 			margin-top: 20px;
 			display: flex;
 			justify-content: center;

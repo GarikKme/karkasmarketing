@@ -136,8 +136,9 @@
     }
   }
   .contacts {
+    min-height: 440px;
     background-image: url(../images/contacts-mob-bg.png);
-    padding-top: 50px;
+    padding-top: 10px;
 
     &__title {
       color: #606161;
@@ -173,6 +174,7 @@
     }
   }
   .contacts2 {
+    min-height: 500px;
     .contacts-word1 {
       right: unset;
       top: -120px;
@@ -319,12 +321,6 @@
       width: 100%;
       max-width: 100%;
     }
-
-    &-control {
-      width: 100%;
-    }
-
-
     &__btn {
       width: 100%;
     }
@@ -403,6 +399,8 @@
     top: -63px;
   }
   .garanties {
+    padding-top: 40px;
+    padding-bottom: 50px;
     &__box {
       padding: 12px 5px;
     }
@@ -413,6 +411,33 @@
 
     img {
       max-width: 100%;
+      width: 130px;
+    }
+  }
+  .reasons {
+    &-wrap {
+      padding: 0px 8px 0 33px;
+      &__list {
+        margin-top: 30px;
+      }
+      &__img {
+        margin-top: 20px;
+      }
+    }
+  }
+  .works {
+    padding-top: 70px;
+  }
+  .contacts2 {
+    .contacts__text2 {
+      margin-top: 100px;
+    }
+    .contacts-word1 {
+      top: -270px;
+    }
+    .contacts-word2 {
+      top: -130px;
+      left: 40px;
     }
   }
   .footer {
@@ -447,6 +472,14 @@
   .contacts {
     &-word2 {
       left: 40px;
+    }
+  }
+  .garanties {
+    img {
+      width: 100px;
+    }
+    &__text {
+      font-size: 14px;
     }
   }
 }
