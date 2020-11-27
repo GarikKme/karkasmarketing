@@ -6,8 +6,10 @@
 
 
 
-
-
+:root {
+	--animate-delay: 0.5s;
+}
+	
 .header {
 	background-image: url(../images/header-bg.jpg);
 	background-repeat: no-repeat;
@@ -105,6 +107,7 @@
 		}
 		&-text {
 			margin-top: 23px;
+			text-align: center;
 		}
 	}
 	&__text {

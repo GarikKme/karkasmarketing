@@ -4,7 +4,7 @@ body {
   letter-spacing: 0.02em;
   margin: 0;
   background-color: #242424;
-  font-family: Raleway;
+  font-family: 'Raleway', Arial, Helvetica,  sans-serif;
 }
 
 
@@ -150,9 +150,11 @@ p {
 }
 
 label.error {
-  font-size: 12px;
-  color: red;
-  position: absolute;
+	font-size: 12px;
+	color: red;
+	position: absolute;
+	top: -26px;
+	left: 0;
 }
 
 #tel-error {
@@ -298,7 +300,7 @@ input.valid {
       transform: rotate(525deg)
     }
   }
-  animation: loader 6s linear infinite ;
+  animation: loader 6s linear infinite 4s;
 }
 @keyframes loader {
 	0% {transform:rotate(22deg)}

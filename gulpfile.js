@@ -68,6 +68,7 @@ const fontsStyle = (done) => {
 const stylesLibs = () => {
 	return src([
 		'node_modules/bootstrap/dist/css/bootstrap.css',
+		'node_modules/animate.css/animate.min.css',
 		'node_modules/lightgallery.js/dist/css/lightgallery.css'
 	])
 		.pipe(concat('_libs.scss'))
@@ -188,6 +189,7 @@ const scriptsBuild = () => {
 	return src([
 		'node_modules/jquery/dist/jquery.min.js',
 		'node_modules/jquery-validation/dist/jquery.validate.min.js',
+		'node_modules/jquery.maskedinput/src/jquery.maskedinput.js',
 		'node_modules/lightgallery.js/dist/js/lightgallery.min.js',
 		'src/js/main.js'
 	])

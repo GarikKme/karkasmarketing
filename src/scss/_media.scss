@@ -1,6 +1,6 @@
 /* ------ Media Queries ------ */
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1540px) {
   .contacts {
     &__text1 {
       margin-top: 90px;
@@ -94,7 +94,7 @@
       text-align: center;
       position: absolute;
       width: 100%;
-      height: 50%;
+      height: 60%;
       left: 0;
       top: 0;
       z-index: 9;
@@ -241,6 +241,15 @@
   .mobile-author {
     display: block;
   }
+  #tel-error {
+	  top: -13px;
+  }
+  p {
+	  font-family: Arial, sans-serif;
+  }
+  li {
+	  font-family: Arial, sans-serif;
+  }
 }
 
 /* 576-768px */
@@ -339,7 +348,7 @@
     }
 
     .menu {
-      height: 60%;
+      height: 80%;
     }
 
     .offer {

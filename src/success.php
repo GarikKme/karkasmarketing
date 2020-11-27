@@ -11,12 +11,12 @@ $tel = htmlspecialchars($_POST["tel"]);
 $refferer = getenv('HTTP_REFERER');
 $date=date("d.m.y"); // число.месяц.год  
 $time=date("H:i"); // часы:минуты:секунды 
-$myemail = "Ho6otok@gmail.com"; // e-mail администратора
+$myemail = "karkasmarketing@yandex.ru"; // e-mail администратора
 
 
 // Отправка письма администратору сайта
 
-$tema = "Здравствуйте, Вам заявка с Вашего сайта с номером телефона : ";
+$tema = "Приветствую Амина :-)), Вам заявка с Вашего сайта с номером телефона : ";
 $message_to_myemail = "Заявка с Вашего сайта:
 <br><br>
 Телефон клиента: $tel<br><br>
